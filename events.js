@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const formattedEventName = encodeURIComponent(event.toLowerCase().replace(/ /g, ''));
             const url = `${formattedEventName}.html`;
 
+console.log('Generated URL:', url);
+            
             // Open the link in a new tab
             const link = document.createElement('a');
             link.href = url;
