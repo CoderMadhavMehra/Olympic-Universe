@@ -33,7 +33,7 @@ header {
 header h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
     margin-bottom: 10px;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 /* Navigation menu styles */
@@ -88,23 +88,9 @@ nav ul li a:hover {
 }
 
 
-#explore {
-    text-align: center;
-    padding: 40px 0;
-    background-color: #f9f9f9;
-}
-
-#explore h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-#explore a.btn {
-    display: inline-block;
-    margin: 0 10px; /* Adjust spacing between buttons */
-}
 
 .btn {
+    margin: 40;
     text-decoration: none;
     background-color: #005bbb;
     color: white;
@@ -120,7 +106,6 @@ nav ul li a:hover {
     background-color: #003f73;
     transform: scale(1.05);
 }
-
 
 /* Main content styles */
 main {
@@ -200,7 +185,7 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     header nav ul{
         flex-direction: column;
     }
@@ -208,12 +193,7 @@ footer {
     header nav ul li{
         margin: 10px;
     }
-
-    header h1{
-        font-size: 6vw;
-    }
 }
-
 
 .heading1{
     font-family: "Anton";
@@ -240,6 +220,8 @@ footer {
     font-size: 18px;
 }
 
-
+#explore{
+    text-align: center;
+}
 
 
